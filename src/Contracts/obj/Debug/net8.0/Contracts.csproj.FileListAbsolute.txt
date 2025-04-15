@@ -1,0 +1,11 @@
+/home/amos/Desktop/microservice/code/carsties/src/Contracts/bin/Debug/net8.0/Contracts.deps.json
+/home/amos/Desktop/microservice/code/carsties/src/Contracts/bin/Debug/net8.0/Contracts.dll
+/home/amos/Desktop/microservice/code/carsties/src/Contracts/bin/Debug/net8.0/Contracts.pdb
+/home/amos/Desktop/microservice/code/carsties/src/Contracts/obj/Debug/net8.0/Contracts.GeneratedMSBuildEditorConfig.editorconfig
+/home/amos/Desktop/microservice/code/carsties/src/Contracts/obj/Debug/net8.0/Contracts.AssemblyInfoInputs.cache
+/home/amos/Desktop/microservice/code/carsties/src/Contracts/obj/Debug/net8.0/Contracts.AssemblyInfo.cs
+/home/amos/Desktop/microservice/code/carsties/src/Contracts/obj/Debug/net8.0/Contracts.csproj.CoreCompileInputs.cache
+/home/amos/Desktop/microservice/code/carsties/src/Contracts/obj/Debug/net8.0/Contracts.dll
+/home/amos/Desktop/microservice/code/carsties/src/Contracts/obj/Debug/net8.0/refint/Contracts.dll
+/home/amos/Desktop/microservice/code/carsties/src/Contracts/obj/Debug/net8.0/Contracts.pdb
+/home/amos/Desktop/microservice/code/carsties/src/Contracts/obj/Debug/net8.0/ref/Contracts.dll
