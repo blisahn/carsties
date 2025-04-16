@@ -117,3 +117,4 @@
 /home/amos/Desktop/microservice/code/carsties/src/AuctionService/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 /home/amos/Desktop/microservice/code/carsties/src/AuctionService/bin/Debug/net8.0/Microsoft.IdentityModel.Tokens.dll
 /home/amos/Desktop/microservice/code/carsties/src/AuctionService/bin/Debug/net8.0/System.IdentityModel.Tokens.Jwt.dll
+/home/amos/Desktop/microservice/code/carsties/src/AuctionService/obj/Debug/net8.0/AuctionService.sourcelink.json

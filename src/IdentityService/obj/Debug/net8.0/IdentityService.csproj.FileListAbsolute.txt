@@ -133,3 +133,4 @@
 /home/amos/Desktop/microservice/code/carsties/src/IdentityService/obj/Debug/net8.0/IdentityService.genruntimeconfig.cache
 /home/amos/Desktop/microservice/code/carsties/src/IdentityService/obj/Debug/net8.0/ref/IdentityService.dll
 /home/amos/Desktop/microservice/code/carsties/src/IdentityService/bin/Debug/net8.0/keys/is-signing-key-7BA033B649AC022E072D60E3883C8B04.json
+/home/amos/Desktop/microservice/code/carsties/src/IdentityService/obj/Debug/net8.0/IdentityService.sourcelink.json

@@ -43,3 +43,4 @@
 /home/amos/Desktop/microservice/code/carsties/src/SearchService/obj/Debug/net8.0/SearchService.pdb
 /home/amos/Desktop/microservice/code/carsties/src/SearchService/obj/Debug/net8.0/SearchService.genruntimeconfig.cache
 /home/amos/Desktop/microservice/code/carsties/src/SearchService/obj/Debug/net8.0/ref/SearchService.dll
+/home/amos/Desktop/microservice/code/carsties/src/SearchService/obj/Debug/net8.0/SearchService.sourcelink.json

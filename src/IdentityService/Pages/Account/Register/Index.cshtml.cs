@@ -32,7 +32,6 @@ namespace IdentityService.Pages.Register
             {
                 ReturnUrl = returnUrl
             };
-
             return Page();
         }
 
@@ -49,7 +48,6 @@ namespace IdentityService.Pages.Register
                     UserName = Input.Username,
                     Email = Input.Email,
                     EmailConfirmed = true,
-
                 };
 
                 var result = await _userManager.CreateAsync(user, Input.Password);
@@ -63,7 +61,20 @@ namespace IdentityService.Pages.Register
 
                     RegisterSuccess = true;
                 }
+                else
+                {
+                    System.Console.WriteLine("Registration failed:");;
+                    foreach (var error in result.Errors)
+                    {
+                        System.Console.WriteLine(error.Description);
+                    }
+                }
             }
+            else
+            {
+                System.Console.WriteLine("Model state is invalid.");
+            }
+
             return Page();
         }
     }
