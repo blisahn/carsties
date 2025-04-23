@@ -28,8 +28,8 @@ builder.Services.AddMassTransit(x =>
         // implement rabbitMq specifically to use in container
         cfg.Host(builder.Configuration["RabbitMq:Host"], "/", h =>
         {
-            h.Username(builder.Configuration.GetValue("RabbitMQ:Username", "guest")!);
-            h.Password(builder.Configuration.GetValue("RabbitMQ:Password", "guest")!);
+            h.Username(builder.Configuration.GetValue("RabbitMq:Username", "guest")!);
+            h.Password(builder.Configuration.GetValue("RabbitMq:Password", "guest")!);
         });
         cfg.ConfigureEndpoints(context);
     });
