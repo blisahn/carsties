@@ -9,7 +9,7 @@ export type Auction = {
     seller: string
     winner?: string
     soldAmount: number
-    currentHighBid: number
+    currentHighBid: any
     createdAt: string
     updatedAt: string
     auctionEnd: string
