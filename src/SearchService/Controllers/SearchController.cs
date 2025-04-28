@@ -22,7 +22,8 @@ public class SearchController : ControllerBase
 
         query = searchParams.OrderBy switch
         {
-            "make" => query.Sort(x => x.Ascending(x => x.Make)),
+            "make" => query.Sort(x => x.Ascending(x => x.Make))
+                .Sort(x => x.Ascending(a => a.Model)),
             "new" => query.Sort(x => x.Descending(x => x.CreatedAt)),
             _ => query.Sort(x => x.Ascending(x => x.AuctionEnd)),
         };
@@ -33,9 +34,9 @@ public class SearchController : ControllerBase
             {
                 "finished" => query.Match(x => x.AuctionEnd < DateTime.UtcNow),
                 "endingSoon" => query.Match(x =>
-                    x.AuctionEnd < DateTime.UtcNow.AddHours(6) && x.AuctionEnd > DateTime.UtcNow
-                ),
-                _ => query.Match(x => x.AuctionEnd > DateTime.UtcNow), // live
+                    x.AuctionEnd < DateTime.UtcNow.AddHours(6)
+                        && x.AuctionEnd > DateTime.UtcNow),
+                _ => query.Match(x => x.AuctionEnd > DateTime.UtcNow) // live
             };
         }
 

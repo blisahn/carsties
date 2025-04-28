@@ -1,9 +1,10 @@
-import Listings from "./auctions/Listing"
+import Listings from "./auctions/Listing";
+
 
 export default function Home() {
-  return (
-    <div>
-      <Listings />
-    </div>
-  );
+    return (
+        <div>
+            <Listings />
+        </div>
+    );
 }
