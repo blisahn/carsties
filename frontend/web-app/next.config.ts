@@ -10,7 +10,8 @@ const nextConfig: NextConfig = {
   },
   images: {
     remotePatterns: [
-      { protocol: 'https', hostname: 'cdn.pixabay.com' }
+      new URL('https://pixabay.com/photos/**'),
+      new URL('https://cdn.pixabay.com/photo/**')
     ]
   }
 };

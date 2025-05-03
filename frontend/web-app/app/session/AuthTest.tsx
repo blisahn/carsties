@@ -1,6 +1,6 @@
 'use client'
 import React, { useState } from 'react'
-import { updateAuctionTest } from '../actions/auctionAuction';
+import { updateAuctionTest } from '../actions/auctionActions';
 import { Button } from 'flowbite-react/components/Button';
 // import { Button } from 'flowbite-react';
 
