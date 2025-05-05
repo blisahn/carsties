@@ -26,7 +26,6 @@ async function post(url: string, body: {}) {
 }
 
 async function put(url: string, body: {}) {
-    console.log('fertwrapper putun icindesin')
     const requestOptions = {
         method: 'PUT',
         headers: await getHeaders(),
@@ -34,7 +33,6 @@ async function put(url: string, body: {}) {
     }
 
     const response = await fetch(baseUrl + url, requestOptions);
-    console.log('fertwrapper putun icinde response olustu')
     console.log(response)
     return handleResponse(response);
 }

@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using MassTransit;
 using AuctionService.Consumers;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using AuctionService.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -44,6 +45,7 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
         options.TokenValidationParameters.ValidateAudience = false;
         options.TokenValidationParameters.NameClaimType = "username";
     });
+builder.Services.AddGrpc();
 var app = builder.Build();
 
 // app.UseRouting();
@@ -51,7 +53,7 @@ app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
-
+app.MapGrpcService<GrpcAuctionService>();
 try
 {
     DbInitializer.InitDb(app);
