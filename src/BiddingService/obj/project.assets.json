@@ -1994,11 +1994,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/amos/Desktop/microservice/code/carsties/src/BiddingService/BiddingService.csproj",
+      "projectUniqueName": "/home/amos/Desktop/development/microservice/code/carsties/src/BiddingService/BiddingService.csproj",
       "projectName": "BiddingService",
-      "projectPath": "/home/amos/Desktop/microservice/code/carsties/src/BiddingService/BiddingService.csproj",
+      "projectPath": "/home/amos/Desktop/development/microservice/code/carsties/src/BiddingService/BiddingService.csproj",
       "packagesPath": "/home/amos/.nuget/packages/",
-      "outputPath": "/home/amos/Desktop/microservice/code/carsties/src/BiddingService/obj/",
+      "outputPath": "/home/amos/Desktop/development/microservice/code/carsties/src/BiddingService/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/amos/.nuget/NuGet/NuGet.Config"
@@ -2013,8 +2013,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/home/amos/Desktop/microservice/code/carsties/src/Contracts/Contracts.csproj": {
-              "projectPath": "/home/amos/Desktop/microservice/code/carsties/src/Contracts/Contracts.csproj"
+            "/home/amos/Desktop/development/microservice/code/carsties/src/Contracts/Contracts.csproj": {
+              "projectPath": "/home/amos/Desktop/development/microservice/code/carsties/src/Contracts/Contracts.csproj"
             }
           }
         }
@@ -2082,7 +2082,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.408/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.409/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

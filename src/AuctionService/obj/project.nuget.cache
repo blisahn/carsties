@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lT+zJF4O6Sc=",
+  "dgSpecHash": "mazejXOOdos=",
   "success": true,
-  "projectFilePath": "/home/amos/Desktop/microservice/code/carsties/src/AuctionService/AuctionService.csproj",
+  "projectFilePath": "/home/amos/Desktop/development/microservice/code/carsties/src/AuctionService/AuctionService.csproj",
   "expectedPackageFiles": [
     "/home/amos/.nuget/packages/automapper/13.0.1/automapper.13.0.1.nupkg.sha512",
     "/home/amos/.nuget/packages/google.protobuf/3.30.2/google.protobuf.3.30.2.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xS3+e/O0ewM=",
+  "dgSpecHash": "GLWZP22zVAE=",
   "success": true,
-  "projectFilePath": "/home/amos/Desktop/microservice/code/carsties/src/GatewayService/GatewayService.csproj",
+  "projectFilePath": "/home/amos/Desktop/development/microservice/code/carsties/src/GatewayService/GatewayService.csproj",
   "expectedPackageFiles": [
     "/home/amos/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/8.0.4/microsoft.aspnetcore.authentication.jwtbearer.8.0.4.nupkg.sha512",
     "/home/amos/.nuget/packages/microsoft.identitymodel.abstractions/7.1.2/microsoft.identitymodel.abstractions.7.1.2.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JcnjTtG0xBE=",
+  "dgSpecHash": "Z2V//dZI1nk=",
   "success": true,
-  "projectFilePath": "/home/amos/Desktop/microservice/code/carsties/src/SearchService/SearchService.csproj",
+  "projectFilePath": "/home/amos/Desktop/development/microservice/code/carsties/src/SearchService/SearchService.csproj",
   "expectedPackageFiles": [
     "/home/amos/.nuget/packages/automapper/13.0.1/automapper.13.0.1.nupkg.sha512",
     "/home/amos/.nuget/packages/dnsclient/1.6.1/dnsclient.1.6.1.nupkg.sha512",
